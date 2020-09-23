@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build project4-fsk.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build project5-fsk.surge.sh --token ${{ secrets.SURGE_TOKEN }}
